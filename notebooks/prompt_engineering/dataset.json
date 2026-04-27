@@ -1,0 +1,15 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "The study examines how microbial communities in soil ecosystems respond to anthropogenic climate change through shifts in metabolic pathways and species composition. While nitrogen cycling and carbon sequestration are explicitly discussed as primary mechanisms, the data reveals that soil pH fluctuations\u2014a consequence of altered precipitation patterns\u2014indirectly influence bacterial diversity and fungal networks. Furthermore, the research demonstrates that these biogeochemical processes have cascading effects on plant nutrient availability, suggesting interconnected relationships between climate resilience, soil health, and agricultural productivity that extend beyond the traditionally studied decomposition rates."
+    },
+    "solution_criteria": [
+      "Extracts explicitly stated topics (e.g., nitrogen cycling, carbon sequestration, soil pH, bacterial diversity, decomposition rates)",
+      "Identifies implicit topics inferable from context (e.g., climate change impacts, plant-microbe interactions, agricultural implications, biogeochemical processes)",
+      "Distinguishes between primary mechanisms and secondary/cascading effects mentioned in the passage",
+      "Returns results as a valid JSON array of strings without duplicates"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholarly article into JSON array of strings\n    ",
+    "scenario": "Testing with a passage containing implicit and explicit topics mixed together, where some topics require inference from context clues and others are directly stated, to evaluate the prompt's ability to distinguish between overtly mentioned subjects and underlying themes"
+  }
+]
